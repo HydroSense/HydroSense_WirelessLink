@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright : 2012 Freescale, Inc. All Rights Reserved.
+
+  This configuration file is a standard interchange file that's format is maintained
+  by Freescale, Inc. The configuration file is a derivative work
+  of the Processor Expert Software technology licensed for use by customers
+  as defined as SOFTWARE in the product's End User License Agreement. This file
+  and format are free to use and distribute for read-only purposes. You do not have
+  the right to create these files or modify this format or use for any purposes other
+  than interchange with the Processor Expert Software technology.
+
+  THIS SOFTWARE IS PROVIDED "AS IS".
+
+  NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT
+  LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE APPLY TO THIS SOFTWARE. IN NO EVENT WILL FREESCALE BE LIABLE, WHETHER
+  IN CONTRACT, TORT, OR OTHERWISE, FOR ANY INCIDENTAL, SPECIAL, INDIRECT,
+  CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR
+  ANY LOSS OF USE, LOSS OF TIME, INCONVENIENCE, COMMERCIAL LOSS, OR LOST PROFITS,
+  SAVINGS, OR REVENUES TO THE FULL EXTENT SUCH MAY BE DISCLAIMED BY LAW.
+
+-->
+<export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectInfoDescription.xsd">
+  <PROCESSOR>
+    <DeviceID>MKL26Z64xxx4</DeviceID>
+    <CoreNum>1</CoreNum>
+    <Cores>
+      <Core>
+        <CoreSet>Cortex-M0+</CoreSet>
+      </Core>
+    </Cores>
+    <SRAMsize>8192</SRAMsize>
+    <FLASHsize>64k</FLASHsize>
+  </PROCESSOR>
+  <PATHS>
+    <LinkerCommandFile>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Project_Settings/Linker_Files/ProcessorExpert.ld</LinkerCommandFile>
+    <IncludePaths>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/inc/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/sim/MKL26Z4/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/system/src/clock/MKL26Z4/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/system/inc/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/osa/inc/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/drivers/inc/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/CMSIS/Include/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/devices/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/devices/MKL26Z4/include/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/utilities/src/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/utilities/inc/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/devices/MKL26Z4/startup/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/SDK/platform/devices/MKL26Z4/startup/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Sources/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/</Path>
+    </IncludePaths>
+    <SourceCodePaths>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/devices/MKL26Z4/startup/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/devices/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/drivers/src/rtc/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/drivers/src/spi/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/lpsci/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/mcg/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/osc/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/port/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/rtc/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/sim/MKL26Z4/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/spi/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/uart/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/osa/src/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/system/src/clock/MKL26Z4/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/system/src/clock/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/system/src/interrupt/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/utilities/src/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Sources/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Static_Code/System/</Path>
+      <Path>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/devices/MKL26Z4/startup/gcc/</Path>
+    </SourceCodePaths>
+  </PATHS>
+  <FILES>
+    <GeneratedCs>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/Cpu.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/clockMan1.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/hardware_init.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/osa1.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/pin_mux.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/radioSPI.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/devices/MKL26Z4/startup/system_MKL26Z4.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/devices/startup.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/drivers/src/rtc/fsl_rtc_common.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/drivers/src/spi/fsl_spi_common.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/drivers/src/spi/fsl_spi_master_driver.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/drivers/src/spi/fsl_spi_shared_function.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/drivers/src/spi/fsl_spi_slave_driver.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/lpsci/fsl_lpsci_hal.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/mcg/fsl_mcg_hal.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/osc/fsl_osc_hal.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/port/fsl_port_hal.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/rtc/fsl_rtc_hal.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/sim/MKL26Z4/fsl_sim_hal_MKL26Z4.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/spi/fsl_spi_hal.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/uart/fsl_uart_hal.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/osa/src/fsl_os_abstraction_bm.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/system/src/clock/MKL26Z4/fsl_clock_MKL26Z4.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/system/src/clock/fsl_clock_manager.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/system/src/clock/fsl_clock_manager_common.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/system/src/interrupt/fsl_interrupt_manager.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/utilities/src/fsl_debug_console.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/utilities/src/fsl_misc_utilities.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/utilities/src/print_scan.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Sources/Events.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Sources/main.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Sources/rtos_main_task.c</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Static_Code/System/PE_low_level_init.c</PathName>
+    </GeneratedCs>
+    <GeneratedHs>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/Cpu.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/PE_low_level_init.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/SDK/platform/devices/MKL26Z4/startup/system_MKL26Z4.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/board.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/clockMan1.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/osa1.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/pin_mux.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Generated_Code/radioSPI.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/CMSIS/Include/arm_common_tables.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/CMSIS/Include/arm_const_structs.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/CMSIS/Include/arm_math.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/CMSIS/Include/core_cm0plus.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/CMSIS/Include/core_cmFunc.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/CMSIS/Include/core_cmInstr.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/CMSIS/Include/core_cmSimd.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/devices/MKL26Z4/include/MKL26Z4.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/devices/MKL26Z4/include/MKL26Z4_extension.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/devices/MKL26Z4/include/MKL26Z4_features.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/devices/MKL26Z4/include/fsl_bitaccess.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/devices/fsl_device_registers.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/devices/startup.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/drivers/inc/fsl_spi_master_driver.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/drivers/inc/fsl_spi_shared_function.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/drivers/inc/fsl_spi_slave_driver.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/inc/fsl_lpsci_hal.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/inc/fsl_mcg_hal.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/inc/fsl_mcg_hal_modes.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/inc/fsl_osc_hal.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/inc/fsl_port_hal.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/inc/fsl_rtc_hal.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/inc/fsl_sim_hal.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/inc/fsl_spi_hal.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/inc/fsl_uart_hal.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/hal/src/sim/MKL26Z4/fsl_sim_hal_MKL26Z4.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/osa/inc/fsl_os_abstraction.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/osa/inc/fsl_os_abstraction_bm.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/system/inc/fsl_clock_manager.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/system/inc/fsl_interrupt_manager.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/system/src/clock/MKL26Z4/fsl_clock_MKL26Z4.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/utilities/inc/fsl_debug_console.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/utilities/inc/fsl_misc_utilities.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/utilities/src/print_scan.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Sources/Events.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Sources/components/common/hal_defs.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Sources/components/common/hal_int.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Sources/components/common/hal_rf.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Sources/components/common/hal_types.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Sources/components/devices/cc112x/cc112x_spi.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Sources/components/targets/teensy/hal_spi_rf_trxeb.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Sources/rfsettings.h</PathName>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/Sources/rtos_main_task.h</PathName>
+    </GeneratedHs>
+    <GeneratedASMs>
+      <PathName>/home/colin/documents/college/spring16/hydrosense/kinetis/Test_TX/SDK/platform/devices/MKL26Z4/startup/gcc/startup_MKL26Z4.S</PathName>
+    </GeneratedASMs>
+  </FILES>
+  <OPTIONS>
+    <BuildOptions>
+      <CCoptList>
+        <Option>-D CPU_MKL26Z64VFT4</Option>
+        <Option>-D FSL_OSA_BM_TIMER_CONFIG=2</Option>  
+      </CCoptList>
+    </BuildOptions>
+  </OPTIONS>
+</export>
